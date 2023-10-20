@@ -10,20 +10,36 @@ public class Main {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         //------------------Conditions and Operators and Loops:
-        Ex1();
-        Ex2();
-        Ex3();
+        //Ex1();
+        //Ex2();
+        //Ex3();
         //------------------Arrays:
-        Ex4();
-        Ex5();
-        Ex6();
+        //Ex4();
+        //Ex5();
+        //Ex6();
         //------------------Exceptions:
-        Ex7();
+        //Ex7();
         //------------------Lists:
-        Ex8();
-        Ex9();
+        //Ex8();
+        //Ex9();
 
         //------------------OOP
+        BankAccount account1 = new BankAccount("1234 5698 7894", "Mihaela Chiaburu", 1285.36, "Maib");
+        BankAccount account2 = new BankAccount("9874 5612 3216", "Romasco Diana", 1000000.2, "Raiffeisen");
+
+        System.out.println(account1);
+        System.out.println(account2);
+
+        account1.extrage(100.0);
+        System.out.println(account1);
+        account1.deposit(814.64);
+        System.out.println(account1);
+        System.out.println(account1.getProprietar());
+        System.out.println(account1.getNumarAccount());
+        System.out.println(account1.getProprietar());
+        System.out.println(account1.getBank());
+        account1.setBank("Moldincombank");
+        System.out.println(account1.getBank());
 
     }
 
